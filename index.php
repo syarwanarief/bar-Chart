@@ -73,7 +73,6 @@
         },
     });
 
-    /* https://github.com/chartjs/Chart.js/issues/2292 */
     document.getElementById("myChart").onclick = function (evt) {
         var activePoints = myChart.getElementsAtEventForMode(evt, 'point', myChart.options);
         var firstPoint = activePoints[0];
